@@ -1,0 +1,28 @@
+{
+  "name": "node-myanimelist",
+  "version": "0.0.1",
+  "main": "lib/MyAnimeList.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samueldurantes/node-myanimelist.git"
+  },
+  "keywords": [
+    "myanimelist",
+    "myanimelist.net",
+    "mal",
+    "anime",
+    "manga"
+  ],
+  "author": "Samuel Durante",
+  "license": "MIT",
+  "homepage": "https://github.com/samueldurantes/node-myanimelist#readme",
+  "bugs": {
+    "url": "https://github.com/samueldurantes/node-myanimelist/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
