@@ -1,5 +1,6 @@
 {
-  "name": "node-myanimelist",
+  "name": "myanimelist.net",
+  "description": "A simple wrapper for MyAnimeList api v2",
   "version": "0.0.1",
   "main": "lib/MyAnimeList.js",
   "scripts": {
