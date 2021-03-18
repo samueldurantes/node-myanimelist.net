@@ -45,7 +45,7 @@ Get anime by id
 Anime list by ranking
 
 - `type` - anime type _(Required)_
-   - types: ()
+   - types: `all | airing | upcoming | tv | ova | movie | special | bypopularity	| favorite`
 - `resultLimit` - amout of results _(Default value: 4)_
 
 >**Returns**: &nbsp;&nbsp; [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>
@@ -62,7 +62,7 @@ Get seasonal anime
 
 - `year` - anime year _(Required)_
 - `season` - seasonal _(Required)_
-  - seasons: ()
+  - seasons: `winter | spring | summer | fall`
 - `resultLimit` - amout of results _(Default value: 4)_
 
 >**Returns**: &nbsp;&nbsp; [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>
@@ -88,6 +88,7 @@ Get manga by id
 Manga list by ranking
 
 - `type` - manga type _(Required)_
+  - types: `all | manga | oneshots | doujin | lightnovels | novels | manhwa | manhua | bypopularity	| favorite`
 - `resultLimit` - amout of results _(Default value: 4)_
 
 >**Returns**: &nbsp;&nbsp; [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>
