@@ -23,6 +23,10 @@ $ yarn add myanimelist.net
 
 ## Documentation
 
+### new MyAnimeList(token)
+
+- `token` - token for authorization of requests _(Required)_
+
 ### Anime
 
 #### getAnime(search, resultLimit)
@@ -97,7 +101,7 @@ Manga list by ranking
 
 ```javascript
 const MyAnimeList = require('myanimelist.net')
-const mal = new MyAnimeList()
+const mal = new MyAnimeList('your-token')
 
 mal.getMangaById(2)
   .then(console.log)
