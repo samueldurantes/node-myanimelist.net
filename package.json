@@ -1,14 +1,14 @@
 {
   "name": "myanimelist.net",
   "description": "A simple wrapper for MyAnimeList api v2",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "lib/MyAnimeList.js",
   "scripts": {
     "test": "node index.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samueldurantes/node-myanimelist.git"
+    "url": "https://github.com/samueldurantes/node-myanimelist.net.git"
   },
   "keywords": [
     "myanimelist",
@@ -19,9 +19,9 @@
   ],
   "author": "Samuel Durante",
   "license": "MIT",
-  "homepage": "https://github.com/samueldurantes/node-myanimelist#readme",
+  "homepage": "https://github.com/samueldurantes/node-myanimelist.net#readme",
   "bugs": {
-    "url": "https://github.com/samueldurantes/node-myanimelist/issues"
+    "url": "https://github.com/samueldurantes/node-myanimelist.net/issues"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
