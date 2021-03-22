@@ -32,7 +32,7 @@ $ yarn add myanimelist.net
 #### getAnime(search, resultLimit)
 Search anime by name
 
-- `search` - string thath will be queried in the api _(Required)_
+- `search` - string that will be queried in the api _(Required)_
 - `resultLimit` - amout of results _(Default value: 4)_
 
 >**Returns**: &nbsp;&nbsp; [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>
