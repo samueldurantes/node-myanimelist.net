@@ -1,7 +1,7 @@
 {
   "name": "myanimelist.net",
   "description": "A simple wrapper for MyAnimeList api v2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/MyAnimeList.js",
   "scripts": {
     "test": "node index.test.js"
